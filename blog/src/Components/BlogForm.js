@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const BlogForm = ({ onSave }) => {
+const BlogForm = (onSave) => {
   const [title, setTitle] = useState('');
   const [author, setAuthor] = useState('');
   const [body, setBody] = useState('');
